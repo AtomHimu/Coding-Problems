@@ -47,7 +47,7 @@ class Merge: # here making a Merge class with the help of class keyword
 if __name__ == '__main__': # this the main method which is invoked  automatically  while you will first run your program
     print("Enter Your Numbers In a Line ( Seprated by space):") # print
     num=list(map(int,input().strip().split())) # here we are taking input from the user
-    # we are using several methods here qhich are as follows :-
+    # we are using several methods here which are as follows :-
     #1. map() :-returns a map object(which is an iterator) of the results after applying the given function to each item of a given iterable (list, tuple etc.)
     #2.input() : taking input
     #3.strip() :- removes any leading (spaces at the beginning) and trailing (spaces at the end) characters (space is the default leading character to remove)
